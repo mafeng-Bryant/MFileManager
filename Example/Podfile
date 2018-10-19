@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MFileManager_Example' do
+  pod 'MFileManager', :path => '../'
+
+  target 'MFileManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
