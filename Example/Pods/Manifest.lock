@@ -1,0 +1,16 @@
+PODS:
+  - MFileManager (0.1.0)
+
+DEPENDENCIES:
+  - MFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  MFileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFileManager: 236c87d5b5a9f65bb13891c1b7ac2e7f6d022563
+
+PODFILE CHECKSUM: 6aac8994721e5c285e62a4c454646377ca86887c
+
+COCOAPODS: 1.5.3
