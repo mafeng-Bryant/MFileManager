@@ -143,14 +143,22 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/MAESCrypt/MAESCrypt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MExtensions/MExtensions.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MFStoreHelperKit/MFStoreHelperKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MFileManager/MFileManager.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MLocalizedStringKit/MLocalizedStringKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MUIFont/MUIFont.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SFHFKeychainUtils/SFHFKeychainUtils.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/MAESCrypt/MAESCrypt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MExtensions/MExtensions.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MFStoreHelperKit/MFStoreHelperKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MFileManager/MFileManager.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MLocalizedStringKit/MLocalizedStringKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MUIFont/MUIFont.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SFHFKeychainUtils/SFHFKeychainUtils.framework"
 fi

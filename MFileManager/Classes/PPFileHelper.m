@@ -8,6 +8,8 @@
 
 #import "PPFileHelper.h"
 #import "MFStoreHelper.h"
+#import "NSDate+Extensions.h"
+#import <SDWebImage/SDImageCache.h>
 
 static NSString * const kLastClearImagesDate = @"patpat.lastclearimagesdate"; //patpat file
 static NSString * const kPPFileExtension = @"pp"; //patpat file
@@ -62,7 +64,7 @@ static NSString * const kSaveFileExtension = @"da"; //instagram file
 
 + (NSString *)userPath:(NSNumber *)userId
 {
-    if (!isValidNumber(userId)) {
+    if (![userId isKindOfClass:[NSNumber class]]) {
         userId = @(0);
     }
     [PPFileHelper createFileDirIfNotExists:[PPFileHelper userPath]];

@@ -13,4 +13,5 @@ TODO: Add long description of the pod here.
   s.source_files = 'MFileManager/Classes/**/*'
   s.dependency 'MFStoreHelperKit', '~> 1.0.3'
   s.dependency 'SDWebImage'
+  s.dependency 'MExtensions', '~> 2.0.5'
 end

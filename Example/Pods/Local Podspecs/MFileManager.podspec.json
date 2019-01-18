@@ -1,6 +1,6 @@
 {
   "name": "MFileManager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "MFileManager.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mafeng-Bryant/MFileManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mafeng-Bryant/MFileManager.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,6 +25,9 @@
     ],
     "SDWebImage": [
 
+    ],
+    "MExtensions": [
+      "~> 2.0.5"
     ]
   }
 }

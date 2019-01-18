@@ -1,9 +1,18 @@
 PODS:
-  - MFileManager (1.0.1):
+  - MAESCrypt (1.0.0)
+  - MExtensions (2.0.5):
+    - MAESCrypt (~> 1.0.0)
+    - MLocalizedStringKit (~> 1.0.0)
+    - MUIFont (~> 1.0.0)
+    - SDWebImage
+  - MFileManager (1.0.2):
+    - MExtensions (~> 2.0.5)
     - MFStoreHelperKit (~> 1.0.3)
     - SDWebImage
   - MFStoreHelperKit (1.0.3):
     - SFHFKeychainUtils (~> 1.0.0)
+  - MLocalizedStringKit (1.0.0)
+  - MUIFont (1.0.0)
   - SDWebImage (4.4.3):
     - SDWebImage/Core (= 4.4.3)
   - SDWebImage/Core (4.4.3)
@@ -17,14 +26,23 @@ SPEC REPOS:
     - MFStoreHelperKit
     - SDWebImage
     - SFHFKeychainUtils
+  https://github.com/mafeng-Bryant/Specs:
+    - MAESCrypt
+    - MExtensions
+    - MLocalizedStringKit
+    - MUIFont
 
 EXTERNAL SOURCES:
   MFileManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MFileManager: 49a963e415d1f444dab81e3bf4f479d6f74ade0b
+  MAESCrypt: baf33916e9cd34febc561d0f1b6c639d719175e2
+  MExtensions: 222a94b1eb52dbdaecc61a754daa3e9f631a003f
+  MFileManager: b5c4b7d0a46e765ff0926b485df925d980b18eb2
   MFStoreHelperKit: d32da4e4197c97bae77df140c4ef9b0dcb70f6c5
+  MLocalizedStringKit: 6a7a076c228d94347ab9f37794e028e62591028c
+  MUIFont: 52cc9d5e4e147dfb10adcb4421363a2b17454fd4
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
   SFHFKeychainUtils: a4e064aedb7a5ada3d5219152d45f53cebc16507
 
