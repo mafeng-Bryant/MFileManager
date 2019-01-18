@@ -1,16 +1,33 @@
 PODS:
-  - MFileManager (0.1.0)
+  - MFileManager (1.0.1):
+    - MFStoreHelperKit (~> 1.0.3)
+    - SDWebImage
+  - MFStoreHelperKit (1.0.3):
+    - SFHFKeychainUtils (~> 1.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SFHFKeychainUtils (1.0.0)
 
 DEPENDENCIES:
   - MFileManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MFStoreHelperKit
+    - SDWebImage
+    - SFHFKeychainUtils
 
 EXTERNAL SOURCES:
   MFileManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MFileManager: 236c87d5b5a9f65bb13891c1b7ac2e7f6d022563
+  MFileManager: 49a963e415d1f444dab81e3bf4f479d6f74ade0b
+  MFStoreHelperKit: d32da4e4197c97bae77df140c4ef9b0dcb70f6c5
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SFHFKeychainUtils: a4e064aedb7a5ada3d5219152d45f53cebc16507
 
-PODFILE CHECKSUM: 6aac8994721e5c285e62a4c454646377ca86887c
+PODFILE CHECKSUM: 5851278e1256ff0811f6108983816a8e2f011ff4
 
 COCOAPODS: 1.5.3

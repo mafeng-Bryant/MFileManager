@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "MFileManager.h"
+#import "PPFileHelper.h"
 
 FOUNDATION_EXPORT double MFileManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char MFileManagerVersionString[];

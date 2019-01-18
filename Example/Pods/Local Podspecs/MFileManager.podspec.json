@@ -1,9 +1,9 @@
 {
   "name": "MFileManager",
-  "version": "0.1.0",
-  "summary": "A short description of MFileManager.",
+  "version": "1.0.1",
+  "summary": "MFileManager.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1499603656@qq.com/MFileManager",
+  "homepage": "https://github.com/mafeng-Bryant/MFileManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "1499603656@qq.com": "feng.ma@patpat.com"
   },
   "source": {
-    "git": "https://github.com/1499603656@qq.com/MFileManager.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/mafeng-Bryant/MFileManager.git",
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MFileManager/Classes/**/*"
+  "source_files": "MFileManager/Classes/**/*",
+  "dependencies": {
+    "MFStoreHelperKit": [
+      "~> 1.0.3"
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }
