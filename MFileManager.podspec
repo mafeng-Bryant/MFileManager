@@ -11,5 +11,6 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/mafeng-Bryant/MFileManager.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'MFileManager/Classes/**/*'
-  
+  s.dependency 'MFStoreHelper', '~> 1.0.3'
+  s.dependency 'SDWebImage'
 end
